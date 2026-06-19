@@ -1,3 +1,15 @@
 <Solution>
-  <Project Path="MarketCheckoutApi/MarketCheckoutApi.csproj" />
+  <Folder Name="/Core/">
+    <Project Path="Domain/MarketCheckout.Domain.csproj" Id="40bf3f8c-1e6a-43e9-9ae9-758e776ffe1f" />
+    <Project Path="MarketCheckout.Application/MarketCheckout.Application.csproj" Id="f89c0af2-239b-431e-a486-bd95304717d1" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="MarketCheckout.Persistence/MarketCheckout.Persistence.csproj" Id="62b3824d-8e67-4192-a41a-52198ef97a7c" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="MarketCheckoutApi/MarketCheckout.Api.csproj" />
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="MarketCheckout.Test/MarketCheckout.Test.csproj" Id="cb629383-a482-4c36-b60c-04a78639721a" />
+  </Folder>
 </Solution>

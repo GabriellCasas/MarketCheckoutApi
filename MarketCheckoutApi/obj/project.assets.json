@@ -89,9 +89,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\MarketCheckoutApi.csproj",
-      "projectName": "MarketCheckoutApi",
-      "projectPath": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\MarketCheckoutApi.csproj",
+      "projectUniqueName": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\MarketCheckout.Api.csproj",
+      "projectName": "MarketCheckout.Api",
+      "projectPath": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\MarketCheckout.Api.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
       "outputPath": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\obj\\",
       "projectStyle": "PackageReference",
