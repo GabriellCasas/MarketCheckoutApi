@@ -1,0 +1,6 @@
+@MarketCheckoutApi_HostAddress = http://localhost:5245
+
+GET {{MarketCheckoutApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
