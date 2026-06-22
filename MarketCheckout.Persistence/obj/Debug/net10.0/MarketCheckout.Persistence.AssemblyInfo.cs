@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarketCheckout.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b472cab501e620d7d266a9b81fc2e574ad5159f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03bd8c7758fdaf7a213fb095f174707f0f305a6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarketCheckout.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarketCheckout.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
