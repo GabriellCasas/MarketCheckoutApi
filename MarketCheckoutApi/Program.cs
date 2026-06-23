@@ -29,6 +29,7 @@ builder.Services.AddScoped<IBaseRepository<Product>, BaseRepository<Product>>();
 builder.Services.AddScoped<IBaseRepository<ItemCart>, BaseRepository<ItemCart>>();
 builder.Services.AddScoped<IBaseRepository<Cart>, BaseRepository<Cart>>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IApiService, ApiService>();
 builder.Services.AddHttpClient("ProductDummy", client => { client.BaseAddress = new Uri("https://dummyjson.com/products/");});
 

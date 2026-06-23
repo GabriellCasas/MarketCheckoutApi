@@ -20,6 +20,7 @@ namespace MarketCheckout.Api.Controllers
         public async Task<IActionResult> GetProductById(int id)
         {
             var product = await _productService.ProductConsist(id, cancellationToken: default);
+
             if (product == null)
             {
                 return NotFound();

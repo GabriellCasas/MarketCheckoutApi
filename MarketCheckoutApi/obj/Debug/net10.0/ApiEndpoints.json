@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "MarketCheckout.Api.Controllers.CartController",
+    "Method": "AddCart",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartResponse",
+        "Type": "MarketCheckout.Application.Request.CartRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MarketCheckout.Api.Controllers.ProductController",
     "Method": "GetProductById",
     "RelativePath": "api/Product/{id}",

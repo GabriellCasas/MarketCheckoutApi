@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\DevOps\\MarketCheckoutApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|c:\\devops\\marketcheckoutapi\\marketcheckoutapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|solutionrelative:marketcheckoutapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\services\\cartservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\services\\cartservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\services\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\services\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|c:\\devops\\marketcheckoutapi\\marketcheckoutapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|solutionrelative:marketcheckoutapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40BF3F8C-1E6A-43E9-9AE9-758E776FFE1F}|Domain\\MarketCheckout.Domain.csproj|c:\\devops\\marketcheckoutapi\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40BF3F8C-1E6A-43E9-9AE9-758E776FFE1F}|Domain\\MarketCheckout.Domain.csproj|solutionrelative:domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|c:\\devops\\marketcheckoutapi\\marketcheckoutapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|solutionrelative:marketcheckoutapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\request\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\request\\cartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40BF3F8C-1E6A-43E9-9AE9-758E776FFE1F}|Domain\\MarketCheckout.Domain.csproj|c:\\devops\\marketcheckoutapi\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40BF3F8C-1E6A-43E9-9AE9-758E776FFE1F}|Domain\\MarketCheckout.Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\services\\interface\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\services\\interface\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|c:\\devops\\marketcheckoutapi\\marketcheckout.application\\services\\interface\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F89C0AF2-239B-431E-A486-BD95304717D1}|MarketCheckout.Application\\MarketCheckout.Application.csproj|solutionrelative:marketcheckout.application\\services\\interface\\iapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|c:\\devops\\marketcheckoutapi\\marketcheckoutapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|solutionrelative:marketcheckoutapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|c:\\devops\\marketcheckoutapi\\marketcheckoutapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F97546-29AF-7ED8-3FC5-E6ECF4349520}|MarketCheckoutApi\\MarketCheckout.Api.csproj|solutionrelative:marketcheckoutapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,67 +54,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "MarketCheckout.Application\\Services\\ApiService.cs",
-              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\ApiService.cs",
-              "RelativeToolTip": "MarketCheckout.Application\\Services\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T02:11:04.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IApiService.cs",
-              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\Interface\\IApiService.cs",
-              "RelativeDocumentMoniker": "MarketCheckout.Application\\Services\\Interface\\IApiService.cs",
-              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\Interface\\IApiService.cs",
-              "RelativeToolTip": "MarketCheckout.Application\\Services\\Interface\\IApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T02:11:00.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Program.cs",
-              "RelativeDocumentMoniker": "MarketCheckoutApi\\Program.cs",
-              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Program.cs",
-              "RelativeToolTip": "MarketCheckoutApi\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T00:56:54.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T00:32:32.91Z",
+              "WhenOpened": "2026-06-22T23:20:16.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MarketCheckoutApi\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MarketCheckoutApi\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Title": "CartServices.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\CartServices.cs",
+              "RelativeDocumentMoniker": "MarketCheckout.Application\\Services\\CartServices.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\CartServices.cs",
+              "RelativeToolTip": "MarketCheckout.Application\\Services\\CartServices.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwDQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T18:23:36.385Z",
+              "WhenOpened": "2026-06-22T23:04:45.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartRequest.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Request\\CartRequest.cs",
+              "RelativeDocumentMoniker": "MarketCheckout.Application\\Request\\CartRequest.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Request\\CartRequest.cs",
+              "RelativeToolTip": "MarketCheckout.Application\\Request\\CartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T22:54:49.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\Interface\\ICartService.cs",
+              "RelativeDocumentMoniker": "MarketCheckout.Application\\Services\\Interface\\ICartService.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\Interface\\ICartService.cs",
+              "RelativeToolTip": "MarketCheckout.Application\\Services\\Interface\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T22:53:35.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MarketCheckoutApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MarketCheckoutApi\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T15:37:59.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Program.cs",
+              "RelativeDocumentMoniker": "MarketCheckoutApi\\Program.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Program.cs",
+              "RelativeToolTip": "MarketCheckoutApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T00:56:54.531Z",
               "EditorCaption": ""
             }
           ]
@@ -117,7 +138,41 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "c68ad1de-0bdf-4b3e-b401-814f92ed43ee",
+        "Id": "18731fdc-f2b2-4717-a9f4-1f8c41ea699d",
+        "Display": 2,
+        "X": 1,
+        "Y": 1,
+        "Width": 1918,
+        "Height": 1030,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MarketCheckoutApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckoutApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MarketCheckoutApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T22:23:37.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e200062a-0c91-430b-ab87-2cdd317d5630",
         "Display": 2,
         "X": 1,
         "Y": 1,
@@ -132,28 +187,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T23:19:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "MarketCheckout.Application\\Services\\ProductService.cs",
               "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\ProductService.cs",
               "RelativeToolTip": "MarketCheckout.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBAAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T21:28:02.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\Interface\\IProductService.cs",
-              "RelativeDocumentMoniker": "MarketCheckout.Application\\Services\\Interface\\IProductService.cs",
-              "ToolTip": "C:\\DevOps\\MarketCheckoutApi\\MarketCheckout.Application\\Services\\Interface\\IProductService.cs",
-              "RelativeToolTip": "MarketCheckout.Application\\Services\\Interface\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:55:56.9Z",
+              "WhenOpened": "2026-06-22T23:19:03.792Z",
               "EditorCaption": ""
             }
           ]
