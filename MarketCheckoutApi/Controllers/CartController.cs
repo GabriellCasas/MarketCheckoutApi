@@ -1,4 +1,5 @@
 ﻿using MarketCheckout.Application.Request;
+using MarketCheckout.Application.Services;
 using MarketCheckout.Application.Services.Interface;
 using MarketCheckoutApi.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -11,9 +12,11 @@ namespace MarketCheckout.Api.Controllers
     public class CartController : ControllerBase
     {
         private readonly ICartService _cartService;
-        public CartController(ICartService cartService)
+        private readonly IItemCartService _itemCartService;
+        public CartController(ICartService cartService, IItemCartService itemCartService)
         {
             _cartService = cartService;
+            _itemCartService = itemCartService;
         }
 
         [HttpPost]
@@ -35,6 +38,24 @@ namespace MarketCheckout.Api.Controllers
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while adding the cart.");
+            }
+        }
+
+        [HttpPost("{id}/items")]
+        public async Task<IActionResult> AddItemCart(int id, List<ItemCartRequest> itens)
+        {
+            try
+            {
+                await _itemCartService.AddItemCartAsync(id, itens, cancellationToken: default);
+                return Ok();
+            }
+            catch (OperationCanceledException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
     }

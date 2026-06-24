@@ -22,7 +22,6 @@ namespace MarketCheckoutApi.Domain.Entities
                 Price = price                                                                                                   
             };
         }
-
         private void Validate(int id)
         {
             if(id <= 0)

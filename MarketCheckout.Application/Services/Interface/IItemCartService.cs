@@ -1,4 +1,5 @@
-﻿using MarketCheckoutApi.Domain.Entities;
+﻿using MarketCheckout.Application.Request;
+using MarketCheckoutApi.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,6 +10,6 @@ namespace MarketCheckout.Application.Services.Interface
 {
     public interface IItemCartService
     {
-        Task AddItemCartAsync(int id, List<ItemCart> itens, CancellationToken cancellationToken);
+        Task AddItemCartAsync(int id, List<ItemCartRequest> itens, CancellationToken cancellationToken);
     }
 }

@@ -13,6 +13,6 @@ namespace MarketCheckout.Application.Request
         [MinLength(14)]
         public string BuyerCpf { get; set; }
         public string CreatedBy { get; set; }
-        public List<ItemCart> Items { get; set; } = new List<ItemCart>();
+        public List<ItemCartRequest> Items { get; set; } = new List<ItemCartRequest>();
     }
 }

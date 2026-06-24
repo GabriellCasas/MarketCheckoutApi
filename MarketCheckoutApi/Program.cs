@@ -31,6 +31,7 @@ builder.Services.AddScoped<IBaseRepository<Cart>, BaseRepository<Cart>>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IApiService, ApiService>();
+builder.Services.AddScoped<IItemCartService, ItemCartService>();
 builder.Services.AddHttpClient("ProductDummy", client => { client.BaseAddress = new Uri("https://dummyjson.com/products/");});
 
 builder.Services.AddDbContext<MarketCheckoutDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("Default"),npgsqlOptions => npgsqlOptions.EnableRetryOnFailure(maxRetryCount: 3, maxRetryDelay: TimeSpan.FromSeconds(5), errorCodesToAdd: null)));

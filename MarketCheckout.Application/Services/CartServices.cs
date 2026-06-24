@@ -42,29 +42,15 @@ namespace MarketCheckout.Application.Services
                     throw new ArgumentException("Cart items cannot be empty.", nameof(Cart));
                 }
 
-                var cart = Cart.Create(cartRequest.BuyerName, cartRequest.BuyerCpf, cartRequest.CreatedBy, DateTime.UtcNow, cartRequest.Items);
-                await _repository.AddAsync(cart, cancellationToken);
-
-                foreach (var item in cartRequest.Items)
-                {
-                    var product = await _productService.ProductConsist(item.ProductId, cancellationToken);
-                    if (product == null)
-                    {
-                        throw new ArgumentException("Invalid product in cart.", nameof(Cart));
-                    }
-
-                    //var itemCart = ItemCart.Create(item.ProductId, item.Quantity);
-                    //await _itemCartService.AddItemCartAsync(itemCart, cancellationToken);
-                }
-
-                //var itemCarts = cartRequest.Items.Select(ItemCart.ToItemCart());
-
-
+                var cart = Cart.Create(cartRequest.BuyerName, cartRequest.BuyerCpf, cartRequest.CreatedBy, DateTime.UtcNow);
+                await this.AddCartAsync(cart, cancellationToken);
+                
+                await _itemCartService.AddItemCartAsync(cart.Id, cartRequest.Items, cancellationToken);
                 await _repository.SaveChangesAsync(cancellationToken);
             }            
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw new ArgumentException("Error adding cart.", nameof(Cart));
+                throw new ArgumentException($"Error adding cart. {ex.Message}", nameof(Cart));
             }
         }
         public async Task AddCartAsync(Cart cart, CancellationToken cancellationToken)

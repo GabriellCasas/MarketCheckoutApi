@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 
 namespace MarketCheckoutApi.Domain.Entities
 {
@@ -14,7 +15,7 @@ namespace MarketCheckoutApi.Domain.Entities
         public DateTime CreatedAt{ get; set; }
         public List<ItemCart> Items { get; set; } = new List<ItemCart>();
 
-        public static Cart Create(string buyerName, string buyerCpf, string createdBy, DateTime createdAt, List<ItemCart> items)
+        public static Cart Create(string buyerName, string buyerCpf, string createdBy, DateTime createdAt)
         {
             Cart cart = new Cart();
             cart.Validate(buyerName, buyerCpf);
@@ -24,7 +25,7 @@ namespace MarketCheckoutApi.Domain.Entities
                 BuyerCpf = buyerCpf,
                 CreatedBy = createdBy,
                 CreatedAt = createdAt,
-                Items = items
+                Items = new List<ItemCart>()
             };
         }
 

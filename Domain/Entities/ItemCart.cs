@@ -10,7 +10,7 @@ namespace MarketCheckoutApi.Domain.Entities
         public int ProductId { get; set; }
         public int Quantity { get; set; }
 
-        public static ItemCart Create(int productId, int quantity)
+        public static ItemCart Create(int cartId, int productId, int quantity)
         {
             ItemCart itemCart = new ItemCart();
 
@@ -18,6 +18,7 @@ namespace MarketCheckoutApi.Domain.Entities
 
             return new ItemCart
             {
+                CartId = cartId,
                 ProductId = productId,
                 Quantity = quantity
             };
@@ -36,3 +37,4 @@ namespace MarketCheckoutApi.Domain.Entities
         }
     }
 }
+ 
