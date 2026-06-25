@@ -10,10 +10,13 @@ namespace MarketCheckoutApi.Domain.Entities
         [Key]
         public int Id { get; set; }
         public string BuyerName { get; set; }
+        [StringLength(14)]
+        [MinLength(14)]
+        [RegularExpression(@"^\d{14}$", ErrorMessage = "CPF must contain exactly 14 numeric digits.")]
         public string BuyerCpf { get; set; }
         public string CreatedBy { get; set; }
         public DateTime CreatedAt{ get; set; }
-        public List<ItemCart> Items { get; set; } = new List<ItemCart>();
+        public virtual List<ItemCart> Items { get; set; } = new List<ItemCart>();
 
         public static Cart Create(string buyerName, string buyerCpf, string createdBy, DateTime createdAt)
         {

@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "MarketCheckout.Api.Controllers.CartController",
+    "Method": "GetTotalValue",
+    "RelativePath": "api/Cart/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MarketCheckout.Api.Controllers.CartController",
     "Method": "AddItemCart",
     "RelativePath": "api/Cart/{id}/items",
     "HttpMethod": "POST",

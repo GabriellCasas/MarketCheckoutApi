@@ -1,4 +1,5 @@
 ﻿using MarketCheckout.Application.Request;
+using MarketCheckout.Application.Response;
 using MarketCheckout.Application.Services.Interface;
 using MarketCheckout.Domain.Interfaces.Repository;
 using MarketCheckoutApi.Domain.Entities;
@@ -15,11 +16,11 @@ namespace MarketCheckout.Application.Services
 {
     public class CartService : ICartService
     {
-        private readonly IBaseRepository<Cart> _repository;
+        private readonly ICartRepository _repository;
         private readonly IProductService _productService;
         private readonly IItemCartService _itemCartService;
 
-        public CartService(IBaseRepository<Cart> repository, IProductService productService, IItemCartService itemCartService)
+        public CartService(ICartRepository repository, IProductService productService, IItemCartService itemCartService)
         {
             _repository = repository;
             _productService = productService;
@@ -63,6 +64,45 @@ namespace MarketCheckout.Application.Services
             catch (Exception)
             {
                 throw new ArgumentException("Error adding cart.", nameof(Cart));
+            }
+        }
+
+        public async Task<CartResponse> GetTotalValueAsync(int id, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var cart = await this.GetCartByIdAsync(id, cancellationToken);
+
+                if (cart == null)
+                {
+                    throw new ArgumentException("Cart not found.", nameof(Cart));
+                }
+
+                var cartResponse = CartResponse.ToCartResponse(cart);
+
+                return cartResponse;
+            }
+            catch
+            {
+                throw new ArgumentException("Error getting total value.", nameof(Cart));
+            }
+        }
+
+        public async Task<Cart> GetCartByIdAsync(int id, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var cart = await _repository.GetByIdWithItens(id, cancellationToken);
+
+                if (cart == null)
+                {
+                    throw new ArgumentException("Cart not found.", nameof(Cart));
+                }
+                return cart;
+            }
+            catch (Exception)
+            {
+                throw new ArgumentException("Error getting cart.", nameof(Cart));
             }
         }
     }

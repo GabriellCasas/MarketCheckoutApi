@@ -58,5 +58,19 @@ namespace MarketCheckout.Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTotalValue(int id)
+        {
+            var totalValue = await _cartService.GetTotalValueAsync(id, cancellationToken: default);
+            if (totalValue == null)
+            {
+                return NotFound("Cart not found.");
+            }
+            else
+            {
+                return Ok(totalValue);
+            }
+        }
     }
 }

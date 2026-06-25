@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarketCheckout.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ce93933668e9c2090628dd44e2b552998839518")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc9986d7ec4af3b9087cc9dd288feea49bc28e1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarketCheckout.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarketCheckout.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

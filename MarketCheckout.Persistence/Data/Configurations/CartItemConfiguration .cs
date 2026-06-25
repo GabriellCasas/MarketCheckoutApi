@@ -32,8 +32,8 @@ namespace MarketCheckout.Infrastructure.Data.Configurations
                 .HasForeignKey(ic => ic.CartId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasOne<Product>()
-                .WithMany()
+            builder.HasOne(ic => ic.Product)
+                .WithMany(p => p.ItemCarts)
                 .HasForeignKey(ic => ic.ProductId)
                 .OnDelete(DeleteBehavior.Restrict);
         }

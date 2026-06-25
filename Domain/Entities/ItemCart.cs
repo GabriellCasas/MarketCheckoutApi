@@ -9,7 +9,7 @@ namespace MarketCheckoutApi.Domain.Entities
         public int CartId { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }
-
+        public virtual Product Product { get; set; }
         public static ItemCart Create(int cartId, int productId, int quantity)
         {
             ItemCart itemCart = new ItemCart();

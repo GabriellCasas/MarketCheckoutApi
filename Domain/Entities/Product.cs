@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace MarketCheckoutApi.Domain.Entities
@@ -9,6 +10,7 @@ namespace MarketCheckoutApi.Domain.Entities
         public int Id { get; set; }
         public string? Name { get; set; }
         public decimal Price { get; set; }
+        public virtual ICollection<ItemCart> ItemCarts { get; set; } = new List<ItemCart>();
 
         public static Product Create(int id, string name, decimal price)
         {
