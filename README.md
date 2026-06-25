@@ -108,7 +108,7 @@ O endpoint de produto verifica primeiro no banco de dados local. Se não encontr
 ```json
 {
   "buyerName": "João Silva",
-  "buyerCpf": "12345678901234",
+  "buyerCpf": "123.456.789-01",
   "createdBy": "sistema",
   "items": [
     { "productId": 1, "quantity": 2 },
@@ -117,7 +117,7 @@ O endpoint de produto verifica primeiro no banco de dados local. Se não encontr
 }
 ```
 
-> **Atenção:** o campo `buyerCpf` deve conter exatamente **14 dígitos numéricos**.
+> **Atenção:** o campo `buyerCpf` deve conter exatamente **14 dígitos, considerando pontuações do CPF **.
 
 #### Exemplo — Resposta de `GET /api/Cart/{id}`:
 ```json
