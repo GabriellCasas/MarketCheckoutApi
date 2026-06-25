@@ -123,7 +123,7 @@ O endpoint de produto verifica primeiro no banco de dados local. Se não encontr
 ```json
 {
   "id": 1,
-  "buyerCpf": "12345678901234",
+  "buyerCpf": "123.456.789-12",
   "createdBy": "sistema",
   "createdAt": "2026-06-25T01:00:00Z",
   "totalValue": 299.97,
